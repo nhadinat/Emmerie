@@ -388,7 +388,10 @@
     "button-groups.less",
     "navs.less",
     "navbar.less",
-    "modals.less"
+    "breadcrumbs.less",
+    "dropdowns.less",
+    "modals.less",
+    "carousel.less"
   ],
   "js": [
     "alert.js",
@@ -404,5 +407,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=0a4a0f8069d71ab26d04"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=a3794fbfe06ec86f4203"
 }
