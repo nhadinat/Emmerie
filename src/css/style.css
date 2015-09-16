@@ -30,6 +30,7 @@ img {
     width: 100%;
 }
 .header {
+    height: 70px;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -37,38 +38,65 @@ img {
 .header > div > a {
     color: #444;
 }
-.header > div > a > h1:hover, h1:active, h1:focus {
+.header > div > a > h1:hover,
+.header > div > a > h1:active,
+.header > div > a > h1:focus {
     color: #aaa;
 }
-.header-logo-text {
+.header-logo {
     font-weight: 700;
     font-style: italic;
     font-size: 38px;
     display: inline-block;
-    margin: 0;
     color: #444;
 }
-.header-logo-text:hover,
-.header-logo-text:active,
-.header-logo-text:focus {
+.header-logo:hover,
+.header-logo:active,
+.header-logo:focus {
     color: #aaa;
 }
 .hero-img {
-    background-image: url(img/Beach_wedding-hero-540w.jpg);
-    background-position: center top;
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 540px;
-    background-color: #748e9d;
+    background-repeat: no-repeat;
+    height: 540px;
+        background-image: url(img/Beach_wedding-hero-540w.jpg);
+        background-position-x: center;
+        background-color: #748e9d;
 }
-.hero-logo-text {
+/*
+.event-hero.has-portholes.home-page .hero-image {
+    background-image: url(/assets/images/home_08282015/jessica_square.jpg);
+    background-position-x: center;
+    background-position-y: -60px;
+    background-size: 100%;
+}
+
+@media only screen and (min-width: 650px) {
+    .event-hero.has-portholes.home-page .hero-image {
+        background-image: url(/assets/images/home_08282015/group_big.jpg);
+        background-position: 30% top;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 1320px) {
+    .event-hero.has-portholes.home-page .hero-image {
+        background-position: center top;
+        background-size: contain;
+    }
+}
+*/
+
+.hero-logo {
     font-weight: 700;
     font-style: italic;
     font-size: 52px;
     color: #fff;
+    padding: 140px 0 0 0;
+    margin: 0;
 }
 .hero-text {
     color: #fff;
+    font-weight: 700;
 }
 .featured {
     margin: 10px 0 15px 0;
