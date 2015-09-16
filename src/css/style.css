@@ -1,7 +1,7 @@
 body {
     font-family: 'Lora', serif;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #f1e5d8;
 }
 h4 {
     font-size: 18px;
@@ -26,27 +26,33 @@ img {
 .container {
     margin: 0 auto;
     background-color: #fff;
+    width: 100%;
 }
-.header-name {
+.header {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+       -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.header > div > a {
+    color: #444;
+}
+.header > div > a:hover, a:active, a:focus {
+    color: #aaa;
+}
+.header-logo-text {
     font-weight: 700;
     font-style: italic;
-    font-size: 30px;
-}
-.header-logo {
-    margin: 25px 0 0 0;
-    display: inline;
+    font-size: 38px;
+    display: inline-block;
+    margin: 0;
+    color: #444;
 }
 .featured {
     margin: 10px 0 15px 0;
-    color: #aaa;
+    color: #f15f30;
     font-weight: 700;
     font-style: italic;
     font-size: 26px;
-}
-.header {
-    border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
 }
 .project {
     min-width: 50%;
@@ -110,8 +116,7 @@ img {
  */
 @media screen and (min-width: 500px) {
     .header-name {
-        font-size: 34px;
-    }
+        font-size: 24px;}
     .featured {
         font-size: 30px;
     }
@@ -127,7 +132,7 @@ img {
 }
 @media screen and (min-width: 768px) {
     .header-name {
-        font-size: 52px;
+        font-size: 24px;
     }
     .project {
         min-width: 33%;
