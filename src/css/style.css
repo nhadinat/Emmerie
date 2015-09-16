@@ -3,15 +3,16 @@ body {
     color: #333;
     background-color: #f1e5d8;
 }
-h4 {
-    font-size: 18px;
-}
 h3 {
     font-size: 15px;
     font-weight: 700;
     margin-top: 10px;
 }
+h4 {
+    font-size: 18px;
+}
 p {
+    font-size: 18px;
     margin: 10px 0;
 }
 a {
@@ -46,6 +47,20 @@ img {
     display: inline-block;
     margin: 0;
     color: #444;
+}
+.hero-img {
+    background-image: url(img/Beach_wedding-hero.jpg);
+    background-position: center top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 540px;
+    background-color: #b6bbb9;
+}
+.logo-text {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 52px;
+    color: #fff;
 }
 .featured {
     margin: 10px 0 15px 0;
