@@ -29,18 +29,12 @@ img {
     background-color: #fff;
     width: 100%;
 }
-.header {
-    height: 70px;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-       -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-}
-.header > div > a {
+header > div > a {
     color: #444;
 }
-.header > div > a > h1:hover,
-.header > div > a > h1:active,
-.header > div > a > h1:focus {
+header > div > a > h1:hover,
+header > div > a > h1:active,
+header > div > a > h1:focus {
     color: #aaa;
 }
 .header-logo {
