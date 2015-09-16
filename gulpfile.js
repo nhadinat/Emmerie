@@ -11,7 +11,8 @@ var gulp = require('gulp'),
   rename = require("gulp-rename"),
   minifyHTML = require('gulp-minify-html'),
   uncss = require('gulp-uncss'),
-  inlinesource = require('gulp-inline-source');
+  inlinesource = require('gulp-inline-source'),
+  ghPages = require('gulp-gh-pages');
 
 ///////////////* Stream *///////////////
 
