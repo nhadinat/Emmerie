@@ -1,2 +1,7 @@
-# Nate Hadinata's GitHub User Page
-Welcome to my portfolio site. You can review my work on http://nhadinat.github.io, enjoy!
+# Emmerie.com
+
+Emmerie Theme Website designed by Nate Hadinata.
+
+### Where's the site?
+
+I'll put the link here in due time...

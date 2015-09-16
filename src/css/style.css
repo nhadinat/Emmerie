@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
     color: #333;
     background-color: #f4f4f4;
 }
@@ -8,7 +8,7 @@ h4 {
 }
 h3 {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 10px;
 }
 p {
@@ -28,8 +28,8 @@ img {
     background-color: #fff;
 }
 .header-name {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 700;
+    font-style: italic;
     font-size: 30px;
 }
 .header-logo {
@@ -39,6 +39,8 @@ img {
 .featured {
     margin: 10px 0 15px 0;
     color: #aaa;
+    font-weight: 700;
+    font-style: italic;
     font-size: 26px;
 }
 .header {
