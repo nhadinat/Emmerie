@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=0a4a0f8069d71ab26d04)
- * Config saved to config.json and https://gist.github.com/0a4a0f8069d71ab26d04
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=a3794fbfe06ec86f4203)
+ * Config saved to config.json and https://gist.github.com/a3794fbfe06ec86f4203
  */
 
 /*!
@@ -26,14 +26,15 @@ figure {
   margin: 0;
 }
 
-.text-nowrap {
-  white-space: nowrap;
-}
-
+.col-xs-12,
 .col-xs-3,
 .col-xs-4,
 .col-xs-8 {
   float: left;
+}
+
+.text-nowrap {
+  white-space: nowrap;
 }
 
 html {
@@ -47,7 +48,8 @@ html {
 figcaption,
 figure,
 footer,
-header {
+header,
+nav {
   display: block;
 }
 
@@ -197,7 +199,7 @@ ul {
 
 @media (min-width:1200px) {
   .container {
-    width: 970px;
+    width: 1170px;
   }
 }
 
@@ -208,6 +210,7 @@ ul {
 
 .col-md-12,
 .col-sm-6,
+.col-xs-12,
 .col-xs-3,
 .col-xs-4,
 .col-xs-8 {
@@ -215,6 +218,10 @@ ul {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.col-xs-12 {
+  width: 100%;
 }
 
 .col-xs-8 {
