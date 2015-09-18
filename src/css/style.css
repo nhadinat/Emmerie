@@ -94,6 +94,13 @@ nav > ul > li > a {
         background-position-x: center;
         background-color: #748e9d;
 }
+@media screen and (min-width: 500px) {
+    .hero-img {
+        background-image: url(img/Beach_wedding-hero.jpg);
+        background-size: cover;
+    }
+}
+
 /*
 .event-hero.has-portholes.home-page .hero-image {
     background-image: url(/assets/images/home_08282015/jessica_square.jpg);
@@ -121,7 +128,7 @@ nav > ul > li > a {
 .hero-text {
     font-weight: 700;
     color: #fff;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    text-shadow: -2px 2px 2px rgba(0,0,0,.25);
 }
 .hero-title {
     font-style: italic;
