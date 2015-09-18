@@ -17,11 +17,7 @@ h2 {
 }
 h3 {
     font-weight: 700;
-    font-size: 18px;
-    margin-top: 10px;
-}
-@media screen and (min-width: 990px) {
-    h3 {font-size: 22px;}
+    font-size: 20px;
 }
 p {
     font-size: 18px;
@@ -41,6 +37,21 @@ img {
     background-color: #fff;
     width: 100%;
 }
+
+/* Header */
+
+.header-logo {
+    display: inline-block;
+    margin: 0;
+}
+.header-logo:hover,
+.header-logo:active,
+.header-logo:focus {
+    color: #aaa;
+}
+
+/* Nav */
+
 nav {
     float: right;
     padding: 10px 0 10px 0;
@@ -54,22 +65,17 @@ nav > ul > li {
     display: inline;
 }
 nav > ul > li > a {
-    padding: 0 20px 0 20px;
     display: inline-block;
     text-decoration: none;
-    vertical-align: middle;
     font-weight: 700;
     font-size: 18px;
+    color: #f15f30;
+    padding: 0 20px 0 20px;
+    vertical-align: middle;
 }
-.header-logo {
-    display: inline-block;
-    margin: 0;
-}
-.header-logo:hover,
-.header-logo:active,
-.header-logo:focus {
-    color: #aaa;
-}
+
+/* Hero */
+
 .hero-img {
     background-repeat: no-repeat;
     height: 540px;
@@ -116,16 +122,28 @@ nav > ul > li > a {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
     padding-top: 140px;
 }
+
+/* Artists */
+
 .featured {
     margin: 10px 0 15px 0;
 }
-.projects {
-    min-width: 50%;
-    padding-bottom: 15px;
+
+/* Footer */
+
+.footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 20px;
 }
-@media screen and (min-width: 768px) {
-    .projects {min-width: 33%;}
+.footer > div > a {
+    color: #444;
 }
+.footer > div > a:hover, a:active, a:focus {
+    color: #aaa;
+}
+
+/* Other */
+
 .shadow {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -141,87 +159,4 @@ nav > ul > li > a {
 }
 @media screen and (min-width: 500px) {
     .fa-3x {font-size: 3em;}
-}
-.footer {
-    border-top: 1px solid #e5e5e5;
-    padding: 20px;
-}
-.footer > div > a {
-    color: #444;
-}
-.footer > div > a:hover, a:active, a:focus {
-    color: #aaa;
-}
-
-/*
- *
- * Project Page Styles
- *
- */
-
-.project-header {
-    border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 20px;
-}
-.project-title {
-    margin: 10px 0 15px 0;
-    color: #333;
-    font-size: 26px;
-}
-.project-footer {
-    border-top: 1px solid #e5e5e5;
-    padding: 20px;
-    margin-top: 25px;
-}
-.project-footer > div > a {
-    color: #444;
-}
-.project-footer > div > a:hover, a:active, a:focus {
-    color: #aaa;
-}
-
-/*
- *
- * Media Sizes
- *
- */
-
-
-/*
- *
- * Box Shadow (Effect 8 CSS-Tricks)
- *
- */
-
-.effect8
-{
-    position:relative;
-    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
-       -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
-            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
-}
-.effect8:before, .effect8:after
-{
-    content: "";
-    position: absolute;
-    z-index: -1;
-    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.8);
-    box-shadow: 0 0 20px rgba(0,0,0,0.8);
-    top: 10px;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    -moz-border-radius: 100px / 10px;
-    border-radius: 100px / 10px;
-}
-.effect8:after
-{
-    right: 10px;
-    left: auto;
-    -webkit-transform: skew(8deg) rotate(3deg);
-       -moz-transform: skew(8deg) rotate(3deg);
-        -ms-transform: skew(8deg) rotate(3deg);
-         -o-transform: skew(8deg) rotate(3deg);
-            transform: skew(8deg) rotate(3deg);
 }
