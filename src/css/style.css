@@ -40,14 +40,17 @@ img {
 
 /* Header */
 
-.header-logo {
+.navbar-brand {
     color: #444;
-    margin: 0;
+    margin: 10px 0 10px 0;
 }
-.header-logo:hover,
-.header-logo:active,
-.header-logo:focus {
-    color: #aaa;
+header.a {
+    color: #f15f30;
+}
+header.a:hover,
+header.a:active,
+header.a:focus {
+    color: #f15f30;
     text-decoration: none;
 }
 
@@ -67,10 +70,8 @@ nav > ul > li {
 }
 nav > ul > li > a {
     display: inline-block;
-    text-decoration: none;
     font-weight: 700;
     font-size: 18px;
-    color: #f15f30;
     padding: 0 20px 0 20px;
     vertical-align: middle;
 }
