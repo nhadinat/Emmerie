@@ -39,8 +39,11 @@ img {
 }
 
 /* Header */
+header > h1 {
+    margin: 10px;
+    float: left;
+}
 nav {
-    float: right;
 }
 nav > ul {
     margin-bottom: 0;
@@ -57,11 +60,8 @@ nav > ul > li > a {
     padding: 0 20px 0 20px;
 }
 .nav-brand {
-    font-size: 38px;
     color: #444;
-}
-@media screen and (max-width: 460px) {
-
+    transition: .2s color;
 }
 .nav-brand:hover,
 .nav-brand:active,
@@ -72,12 +72,16 @@ nav > ul > li > a {
 .nav-link {
     font-size: 18px;
     color: #f15f30;
-    padding: 15px 20px 15px 20px;
+    padding: 0 20px 0 20px;
+    line-height: 60px;
+    transition: .2s color;
+    transition: .2s background-color;
 }
 .nav-link:hover,
 .nav-link:active,
 .nav-link:focus {
-    color: #a32801;
+    color: #fff;
+    background-color: #f15f30;
     text-decoration: none;
 }
 
@@ -145,6 +149,7 @@ nav > ul > li > a {
 }
 .footer > div > a {
     color: #444;
+    transition: .2s color;
 }
 .footer > div > a:hover,
 .footer > div > a:active,
