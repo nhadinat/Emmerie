@@ -41,13 +41,14 @@ img {
 /* Header */
 
 .header-logo {
-    display: inline-block;
+    color: #444;
     margin: 0;
 }
 .header-logo:hover,
 .header-logo:active,
 .header-logo:focus {
     color: #aaa;
+    text-decoration: none;
 }
 
 /* Nav */
