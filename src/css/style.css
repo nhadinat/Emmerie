@@ -54,25 +54,29 @@ nav > ul > li > a {
     display: inline-block;
     font-weight: 700;
     font-style: italic;
-    padding: 15px 20px 15px 20px;
+    padding: 0 20px 0 20px;
 }
-a.navbar-brand {
+.nav-brand {
     font-size: 38px;
     color: #444;
 }
-a.navbar-brand:hover,
-a.navbar-brand:active,
-a.navbar-brand:focus {
+@media screen and (max-width: 460px) {
+
+}
+.nav-brand:hover,
+.nav-brand:active,
+.nav-brand:focus {
     color: #aaa;
     text-decoration: none;
 }
-a.navbar-link {
+.nav-link {
     font-size: 18px;
     color: #f15f30;
+    padding: 15px 20px 15px 20px;
 }
-a.navbar-link:hover,
-a.navbar-link:active,
-a.navbar-link:focus {
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
     color: #a32801;
     text-decoration: none;
 }
@@ -142,7 +146,9 @@ a.navbar-link:focus {
 .footer > div > a {
     color: #444;
 }
-.footer > div > a:hover, a:active, a:focus {
+.footer > div > a:hover,
+.footer > div > a:active,
+.footer > div > a:focus {
     color: #aaa;
 }
 
