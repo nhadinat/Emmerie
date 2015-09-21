@@ -59,15 +59,18 @@ nav > ul > li > a {
     font-style: italic;
     padding: 0 20px 0 20px;
 }
-.nav-brand {
+.brand-nav {
     color: #444;
     transition: .2s color;
 }
-.nav-brand:hover,
-.nav-brand:active,
-.nav-brand:focus {
+.brand-nav:hover,
+.brand-nav:active,
+.brand-nav:focus {
     color: #aaa;
     text-decoration: none;
+}
+ul.main-nav {
+    float: left;
 }
 .nav-link {
     font-size: 18px;
@@ -84,6 +87,9 @@ nav > ul > li > a {
     color: #fff;
     background-color: #f15f30;
     text-decoration: none;
+}
+ul.social-nav {
+    float: right;
 }
 
 /* Hero */
