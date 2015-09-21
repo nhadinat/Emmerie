@@ -69,9 +69,6 @@ nav > ul > li > a {
     color: #aaa;
     text-decoration: none;
 }
-ul.main-nav {
-    float: left;
-}
 .nav-link {
     font-size: 18px;
     color: #f15f30;
@@ -81,15 +78,15 @@ ul.main-nav {
     transition: .2s color;
     transition: .2s background-color;
 }
+.nav-end {
+    border-right: 1px solid #eee;
+}
 .nav-link:hover,
 .nav-link:active,
 .nav-link:focus {
     color: #fff;
     background-color: #f15f30;
     text-decoration: none;
-}
-ul.social-nav {
-    float: right;
 }
 
 /* Hero */
