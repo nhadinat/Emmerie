@@ -39,6 +39,9 @@ img {
 }
 
 /* Header */
+header {
+    max-height: 60px;
+}
 header > h1 {
     margin: 10px;
     float: left;
